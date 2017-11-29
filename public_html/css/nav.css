@@ -1,4 +1,4 @@
-ul.list-menu {
+ul.list-menu { /* Lista del nav */
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@ ul.list-menu {
     background-color: #333333;
 }
 
-.list-menu li {
+.list-menu li { /* Coloca las entradas en posición horizontal */
     float: left;
 }
 
@@ -22,11 +22,11 @@ ul.list-menu {
     background-color: #111111;
 }
 
-.list-menu ul{
+.list-menu ul{ /* Lista dentro de la lista principal */
  margin:0;
  padding:0;
  list-style:none;
- height:0;
+ height:0; /* No se le da altura, ocultándolo */
  overflow: hidden;
  transition:1s;
  -moz-transition:1s;
@@ -40,7 +40,7 @@ ul.list-menu {
 }
  
  
-.list-menu li:hover ul{
+.list-menu li:hover ul{ /* Muestra la lista dentro de la lista principal cuando se pasa el ratón por la entrada que lo contiene */
  height: 50px;
  background:rgba(108,151,176,0.5);
 }

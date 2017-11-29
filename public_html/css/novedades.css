@@ -1,4 +1,4 @@
-td {
+td { /* Columnas */
     border: 1px solid black;
 	border-radius: 10px;
 }
@@ -12,7 +12,7 @@ table
 	border-spacing: 5px;
 }
 
-tr:nth-child(odd) td:first-child
+tr:nth-child(odd) td:first-child /* La primera columna de las filas impares, que corresponderán al título de la noticia */
 {
 	color: white;
 	padding: 5px;
@@ -22,13 +22,13 @@ tr:nth-child(odd) td:first-child
     border: none;
 }
 
-tr:nth-child(even) td:nth-child(2)
+tr:nth-child(even) td:nth-child(2) /* Segunda columna de las filas pares, que corresponderá al resumen de la noticia */
 {
 	text-align: left;
 	padding: 20px;
 }
 
-caption
+caption /* Título de la tala */
 {
 	color: red;
 	font-weight: bold;

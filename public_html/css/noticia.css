@@ -1,4 +1,4 @@
-p
+p /* Párrafos de la noticia */
 {
 	text-align:justify;
 	text-indent: 10px;
@@ -19,7 +19,7 @@ li
 	margin-bottom: 30px;
 }
 
-#primero:first-letter {
+#primero:first-letter {  /* Primera letra del primer párrafo */
   font-size: 2.5em;
   font-weight: bold;
   line-height: .9em;
@@ -27,7 +27,7 @@ li
   margin: .1em;
 }
 
-h1
+h1 /* Título de la noticia */
 {
 	transform: rotate(270deg);
 	transform-origin: left top 0;
@@ -38,4 +38,16 @@ h1
 	letter-spacing: 5px;
 	text-decoration:overline;
 	font-size: 20px;
+}
+
+figure /* objeto que contiene las imágenes */
+{
+	color:white;
+	float: right;
+	margin-right: 6%;
+}
+
+img
+{
+
 }
